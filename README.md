@@ -15,10 +15,10 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 ```
-rm ~/.config/nvim 
-rm ~/.local/share/nvim 
-rm ~/.local/state/nvim 
-rm ~/.cache/nvim
+rm ~/.config/nvim  -r 
+rm ~/.local/share/nvim -r 
+rm ~/.local/state/nvim -r 
+rm ~/.cache/nvim -r
 ```
 #### Create a new user repository from this template
 
